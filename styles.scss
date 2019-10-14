@@ -14,11 +14,17 @@
 html { /* stylelint-disable-line */
   box-sizing: border-box;
   overflow-x: hidden;
+  font-size: 16px;
 
   // TODO fleiri grunn stillingar
 }
 
-
+// #valmynd{
+//   background-color: #ff5000;
+//   width: 100%;
+//   height: 20%;
+// }
 
 // TODO sækja allar sass skrár
 @import "scss/...";
+
