@@ -22,6 +22,7 @@ html { /* stylelint-disable-line */
 
 .col_12{
   margin-left: calc((100% - 1200px)/2);
+  max-width: 1200px;
 }
 
 
