@@ -20,6 +20,10 @@ html { /* stylelint-disable-line */
   // TODO fleiri grunn stillingar
 }
 
+.col_12{
+  margin-left: calc((100% - 1200px)/2);
+}
+
 
 // TODO sækja allar sass skrár
 @import "scss/footer.scss";
