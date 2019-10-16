@@ -5,11 +5,17 @@
     height: 20%;
     display: flex;
     flex-flow: row wrap;
-    
+
   }
   .valmynd > * {
     flex: 1 100%;
   }
   .valmynd > a {
     flex: 1 auto;
+    color: #000000;
+  }
+
+  .valmynd > a:hover {
+    flex: 1 auto;
+    color: #fffcf2;
   }
