@@ -1,0 +1,21 @@
+.footer {
+    background-color: #00b7ff;
+    &__row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-self: flex-end;
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    &__col {
+        width: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 20px;
+    }
+    
+}
