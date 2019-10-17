@@ -1,5 +1,12 @@
 .footer {
     background-color: #00b7ff;
+    /*margin-top: 20px;*/
+    &__width {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     &__row {
         display: flex;
         flex-flow: row wrap;
@@ -21,14 +28,17 @@
         display: flex;
         flex-direction: column;
         max-width: 1200px;
-        margin: 0 auto;
-    }
-    h3 {
-        margin-bottom: 20px;
     }
     a {
         text-decoration: none;
         color: #fffcf2;
         margin-bottom: 10px;
     }
+    a:hover {
+        color: #000000;
+    }
+    &__tag {
+        font-size: 12px;
+        margin: 10px;
+    }  
 }
