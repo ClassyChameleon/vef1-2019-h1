@@ -6,6 +6,9 @@
         max-width: 1200px;
         padding-left: 20px;
         padding-right: 20px;
+        @media (min-width: 1200px) {
+            padding: 0;
+        }
     }
     &__row {
         display: flex;
@@ -23,11 +26,13 @@
         padding-left: 10px;
         padding-right: 10px;
         margin-bottom: 20px;
+        @media (max-width: 800px) {
+            width: 50%;
+        }
     }
     &__content {
         display: flex;
         flex-direction: column;
-        max-width: 1200px;
     }
     a {
         text-decoration: none;

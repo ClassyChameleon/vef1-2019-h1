@@ -3,15 +3,54 @@
   margin-bottom: 40px;
   &__row {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: 80px;
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
   }
   &__col {
     width: 50%;
     padding-right: 10px;
     padding-left: 10px;
+    @media (max-width: 500px) {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+  &__col-move {
+    @media (max-width: 500px) {
+      order: -6;
+    }
+  }
+}
+
+.text__paragraph {
+  font-size: 24px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.button {
+  font-size: 16px;
+  background-color: #00b7ff;
+  
+  border: 5px solid #00b7ff;
+  border-radius: 5px;
+  
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  &:hover {
+    color: #fffcf2;
+    background-color: #ff5000;
+    border-color: #ff5000;
+    cursor: pointer;
   }
 }
 

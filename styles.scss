@@ -26,6 +26,9 @@ main {
   max-width: 1200px;
   padding-left: 20px;
   padding-right: 20px;
+  @media (min-width: 1200px) {
+    padding: 0;
+  }
 }
 
 .title {
@@ -34,10 +37,10 @@ main {
     font-size: 3.75em;
   }
   &__h2 {
-    font-size: 3em;
+    font-size: 2.25em;
   }
   &__h3 {
-    font-size: 1.5em;
+    font-size: 1.3125em;
     margin-bottom: 20px;
   }
 }
@@ -53,6 +56,10 @@ main {
 @import "scss/footer.scss";
 @import "scss/header.scss";
 @import "scss/index.scss";
+<<<<<<< HEAD
 @import "scss/staff.scss";
 
 
+=======
+@import "scss/products.scss"
+>>>>>>> f677ca90848ea86acf78216aaa32b60d89035b30
