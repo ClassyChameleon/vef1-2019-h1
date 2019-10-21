@@ -13,27 +13,20 @@
   }
   &__title {
     width: 100%;
+    flex: 1;
   }
   &__content {
     display: flex;
-  }
-}
-/*.valmynd{
-    background-color: #ff5000;
-    width: 100%;
-    height: 40%;
-    display: flex;
-    flex-flow: row wrap;
-  }
-  .valmynd > * {
-    flex: 1 100%;
-  }*/
-  .valmynd > a {
-    //flex: 1 auto;
     color: #000000;
+    flex: 2;
   }
-
-  .valmynd > a:hover {
-    flex: 1 auto;
+  a {
+    text-decoration: none;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  a:hover {
     color: #fffcf2;
   }
+}
+
