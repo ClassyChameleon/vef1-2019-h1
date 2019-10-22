@@ -1,4 +1,4 @@
-@import "scss/config";
+@import "scss/config.scss";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap');
 
 * {
@@ -56,10 +56,6 @@ main {
 @import "scss/footer.scss";
 @import "scss/header.scss";
 @import "scss/index.scss";
-<<<<<<< HEAD
 @import "scss/staff.scss";
-
-
-=======
 @import "scss/products.scss"
->>>>>>> f677ca90848ea86acf78216aaa32b60d89035b30
+
