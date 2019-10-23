@@ -9,7 +9,7 @@
     margin-left: -10px;
     margin-right: -10px;
     margin-bottom: 80px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       flex-direction: column;
     }
   }
@@ -17,13 +17,13 @@
     width: 50%;
     padding-right: 10px;
     padding-left: 10px;
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       width: 100%;
       margin-bottom: 40px;
     }
   }
   &__col-move {
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
       order: -6;
     }
   }

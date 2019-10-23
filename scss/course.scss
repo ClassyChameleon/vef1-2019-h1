@@ -28,6 +28,7 @@
     margin-bottom: 40px;
   }
   &__input {
+    width: 60%;
     font-size: 16px;
     padding: 8px;
     border: 1px solid #000000;
@@ -38,8 +39,8 @@
     }
   }
   &__select {
+    width: 60%;
     font-size: 16px;
-    width: 215px;
     border: 1px solid #000000;
     border-radius: 3px;
     line-height: 2.2;
@@ -51,8 +52,8 @@
     }
   }
   &__select-card {
-    font-size: 16px;
     width: 55px;
+    font-size: 16px;
     border: 1px solid #000000;
     border-radius: 3px;
     line-height: 2.2;
