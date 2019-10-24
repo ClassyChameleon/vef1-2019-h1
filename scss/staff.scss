@@ -1,23 +1,32 @@
+//body{--margin: calc((100% - 1200px)/2);}
 .staff{
-    max-width: 1600px;
+    //margin-left: var(--margin);
+    //
+    max-width: 1200px;
     margin-top: 40px;
     margin-bottom: 40px;
-    &__col{
+    &__row {
         display: flex;
-        flex-flow: column nowrap;
+        flex-flow: row wrap;
         justify-content: space-around;
-    }
-    &__row{
-        display: flex;
-        flex-flow: row nowrap;
-        justify-content: space-around;
+    
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: 80px;
+        @media (max-width: 600px) {
+          flex-direction: column;
+        }
+      }
+    &__col {
+        width: 50%;
+        padding-right: 10px;
+        padding-left: 10px;
+        @media (max-width: 600px) {
+          width: 100%;
+          margin-bottom: 40px;
+        }
     }
     &__img{
-        width: 800px;
-        height: 1920px;
+        max-width: calc((1200px/2)-20px);
     }
-}
-//er að reyna að velja myndirnar en ekkert breytist.
-img .staff_img {
-    width: 800px;
 }
