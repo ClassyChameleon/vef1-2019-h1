@@ -4,6 +4,57 @@
     margin: 0 auto;
     max-width: 1200px;
     padding-left: 20px;
+    padding-right: 20px;
+    @media (min-width: 1200px) {
+      padding: 0;
+    }
+  }
+  &__row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  &__text {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:visited {
+      text-decoration: none;
+    }
+    &:hover {
+      color: #fffcf2;
+    }
+    &:active {
+      text-decoration: none;
+    }
+  }
+  &__image {
+    height: 16px;
+    width: auto;
+  }
+}
+.title__center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/*.valmynd {
+  background-color: #ff5000;
+  &__width {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-left: 20px;
     padding-right: 20px; 
   }
   &__row {
@@ -57,5 +108,5 @@
   a:hover {
     color: #fffcf2;
   }
-}
+}*/
 
