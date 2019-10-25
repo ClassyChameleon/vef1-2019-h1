@@ -1,3 +1,17 @@
+# Hópverkefni 1
+
+Þegar verkefnið hefur verið clone-að, þá er hægt að keyra verkefnið með því að gefa skipunina `npm run dev`.
+
+Verkefnið hefur forsíðu `index.html` sem er geymd í rót verkefnisins og svo eru 4 aðrar síður: `cart.html`, `course.html`, `products.html` og `staff.html` en þær eru geymdar í möppunni `pages`.
+
+CSS er skrifað í SCSS sem er síðan þýtt í CSS. `styles.scss` hefur ýmsar grunnstillingar fyrir útlit á öllum síðum og í henni eru restin af SCSS skránum import-aðar. SCSS skrárnar eru 7 í viðbót, 1 fyrir haus, 1 fyrir fót og svo 1 fyrir hverja síðu. Þær eru geymdar í möppunni `scss` og heita: `header.scss`, `footer.scss`, `index.scss`, `products.scss`, `course.scss`, `staff.scss` og `cart.scss`.
+Auk þess er ein CSS skrá í viðbót sem er geymd í rót verkefnis og heitir `grid.css` en hún setur síðuna upp í 12 dálka grind og passar upp á bil (gutter).
+
+Þeir sem unnu að þessu verkefni eru:
+Árni Elmar Hrafnsson - aeh25@hi.is
+Gísli Veigar Gíslason - gvg8@hi.is 
+Sturla Páll Gunnarsson - spg6@hi.is
+
 
 # Hópverkefni 1
 
