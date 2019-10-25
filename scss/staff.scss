@@ -1,32 +1,68 @@
-//body{--margin: calc((100% - 1200px)/2);}
-.staff{
-    //margin-left: var(--margin);
-    //
-    max-width: 1200px;
-    margin-top: 40px;
+.staff {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  &__row {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: -10px;
+    margin-right: -10px;
     margin-bottom: 40px;
-    &__row {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    
-        margin-left: -10px;
-        margin-right: -10px;
-        margin-bottom: 80px;
-        @media (max-width: 600px) {
-          flex-direction: column;
-        }
-      }
-    &__col {
-        width: 50%;
-        padding-right: 10px;
-        padding-left: 10px;
-        @media (max-width: 600px) {
-          width: 100%;
-          margin-bottom: 40px;
-        }
+    @media (max-width: 600px) {
+      flex-direction: column;
+      margin-bottom: 0;
     }
-    &__img{
-        max-width: calc((1200px/2)-20px);
+  }
+  &__col {
+    width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+    @media (max-width: 600px) {
+      width: 100%;
+      margin-bottom: 40px;
     }
+  }
+  &__deck {
+    width: 100%;
+    height: auto;
+    position: relative;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+  }
+  &__card {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: 200ms ease-in-out;
+    transition: 200ms ease-in-out;
+    &:hover {
+      -webkit-transform: rotateY(180deg);
+      transform: rotateY(180deg);
+    }
+  }
+  &__face {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  &__back {
+    overflow: hidden;
+    z-index: -1;
+    display: block;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    box-sizing: border-box;
+  }
+  &__front, &__back {
+    transition: 200ms ease-in-out;
+  }
+  &__front {
+    display: block;
+    z-index: 1;
+  }
+  &__midtext {
+    text-align: center;
+  }
+  &__image {
+    width: 100%;
+    height: auto;
+  }
 }
